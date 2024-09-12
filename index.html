@@ -10,44 +10,76 @@
 </head>
 <body>
     <header class="header">
-        <a href="#" class="logo">Portfolio</a>
+        
+        <a href="" class="logo">Daisy</a>
 
         <i class='bx bx-menu' id="menu-icon"></i>
 
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#portfolio">Portfolio</a>
+            <div class="dropdown">
+                <a href="#about" class="dropbtn">About me</a>
+                <div class="dropdown-content">
+                    <a href="#education">Education</a>
+                    <a href="#interests">Interests</a>
+                </div>
+            </div>
+            <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
+            <a href="#interests">Interests</a>
         </nav>
     </header>
 
     <section class="home" id="home">
         <div class="home-content">
-           
-            <h3>Hello</h3>
-            <h1>I'm Daisy,</h1>
-            <h3>A front-end developer, and a Cloud expert</h3>
-            <p>Feel free to contact me on the following </p>
-        
+            <div>
+                <h3>Hey there</h3><br>
+                <h3>I'm Daisy,</h3> <br>
+                <h3><span>A Front-end developer</span>  </h3><br>
+                <p>Feel free to contact me on the following </p><br>
+                
+                <div class="social-media">
+                    <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                    <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                    <a href="#"><i class='bx bxl-tiktok' ></i></a>
+                    <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
+                </div>
 
-            <div class="social-media">
-                <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
-                <a href="#"><i class='bx bxl-twitter' ></i></a>
-                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
-                <a href="#"><i class='bx bxl-tiktok' ></i></a>
-                <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
+                <a href="#" class="cv_download">Download CV</a>
+
             </div>
-
-            <a href="#" class="btn">Download CV</a>
-
             
-            <img src="images/image1.jpeg" alt="Portfolio Image" width="500" height="500">
-            
+        
+            <div class="portfolio-image">
+                <img src="images/image1.jpeg" alt="Portfolio Image" width="500" height="500">
+            </div>
 
         </div>
     </section>
     
+    <!--Section 2 About me-->
+    <section id="about">
+        <h1>About Me</h1>
+        <p>
+        I am a dedicated software development and cloud computing professional with expertise in Python, Java, C, Delphi,<br>
+        JavaScript, and React library. Experienced with version control systems like Git and adeptin database management, <br>
+        and has a strong background in deploying and managing applications on Azure and AWS. <br>
+        Passionate about cloud technologies, I am is excited by their potential to optimize infrastructure and 
+        drive innovation.<br> <br>
+        </p>
+
+        <subsection id="Interests">
+            <h1>Interests</h1>
+            <p>
+                <li>
+                    <ul>👨‍💻 Software Development</ul>
+                    <ul>🤖 Machine Learning </ul>
+                    <ul>☁️ Cloud Computing</ul>  
+                </li>
+            </p>
+
+        </subsection>
+    </section>
 </body>
 </html>
