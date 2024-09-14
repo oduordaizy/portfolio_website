@@ -6,14 +6,14 @@
     text-decoration: none;
     border: none;
     scroll-behavior: smooth;
-    font-family: "sans-serif";
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 :root{
-    --bg-color: #1f242d;
-    --second-bg-color: #323946;
+    --bg-color: #020812;
+    --second-bg-color: whitesmoke;
     --text-color: #fff;
-    --main-color: #0ef;
+    --main-color: #da77f2;
 
 }
 
@@ -29,11 +29,9 @@ body{
 
 .header{
     position: fixed;
-    top: 0;
+    top: 4px;
     left: 0;
-    width: 100%;
-    padding: 2rem 9%;
-    
+    width: 100%;  
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,14 +42,23 @@ body{
     font-size: 2.5rem;
     color: var(--text-color);
     font-weight: 600;
+    left: 10px;
     cursor: default;
 }
 
+.navbar{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
 .navbar a{
+    display: inline-block;
     font-size: 1.7rem;
     color: var(--text-color);
-    margin-left: 2rem;
+    margin-left: 5px;
     transition: .3s;
+    padding: 5px;
 }
 
 .navbar a:hover,
@@ -59,10 +66,9 @@ body{
     color: var(--main-color);
 }
 
-
+/*About me drop down content*/
 
 .dropdown {
-    position: relative;
     display: inline-block;
 }
 
@@ -75,6 +81,22 @@ body{
     z-index: 1;
 }
 
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    background: #f3d9fa;
+}
+
+.dropdown-content a:hover {
+    background-color: #862e9c;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
 #menu-icon{
     font-size: 3.6rem;
@@ -83,7 +105,7 @@ body{
 }
 
 section{
-    min-height: 100vh;
+    min-height: 120vh;
     padding: 2rem 9% 1rem;  /*change 2rem 9% 1rem*/
     font-weight: 700px;
 }
@@ -122,3 +144,27 @@ section{
 
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
+
+#about{
+    background: rgb(1, 1, 26);
+    
+}
+
+#about-heading{
+    font-size: 3 rem;
+}
+#about-me{
+    padding: 20px;
+}
+#about-me p{
+    font-size: 1.5rem;
+    
+
+}
+#interests{
+    padding: 20px;
+    font-size: larger;
+    line-height: 1.5;
+
+}
+

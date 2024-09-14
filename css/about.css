@@ -1,0 +1,19 @@
+/*styling the about section*/
+
+/*Skills*/
+.skills_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+     
+}
+
+.skills_content{
+    background-color: #f3d9fa;
+    color: black;
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    margin-left: 30px;
+}

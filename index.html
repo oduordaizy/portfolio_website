@@ -6,27 +6,30 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/contact.css"
 
 </head>
 <body>
     <header class="header">
         
-        <a href="" class="logo">Daisy</a>
+        <a href="" class="logo">DAISY</a>
 
         <i class='bx bx-menu' id="menu-icon"></i>
 
         <nav class="navbar">
-            <a href="#home" class="active">Home</a>
+            <a href="#home">Home</a>
             <div class="dropdown">
-                <a href="#about" class="dropbtn">About me</a>
+                <a href="#about" class="dropbtn">About</a>
                 <div class="dropdown-content">
-                    <a href="#education">Education</a>
+                    <a href="#about-me">About me</a>
+                    <a href="#skills">Skills</a>
                     <a href="#interests">Interests</a>
                 </div>
             </div>
-            <a href="#projects">Projects</a>
+            <a href="#projects">Projects</a>    
+            <a href="#education">Education</a>
             <a href="#contact">Contact</a>
-            <a href="#interests">Interests</a>
         </nav>
     </header>
 
@@ -60,26 +63,112 @@
     
     <!--Section 2 About me-->
     <section id="about">
-        <h1>About Me</h1>
-        <p>
-        I am a dedicated software development and cloud computing professional with expertise in Python, Java, C, Delphi,<br>
-        JavaScript, and React library. Experienced with version control systems like Git and adeptin database management, <br>
-        and has a strong background in deploying and managing applications on Azure and AWS. <br>
-        Passionate about cloud technologies, I am is excited by their potential to optimize infrastructure and 
-        drive innovation.<br> <br>
-        </p>
-
-        <subsection id="Interests">
-            <h1>Interests</h1>
+        <div id="about-me">
+            <br>
+            <h1 id="about-heading">About Me</h1>
             <p>
-                <li>
-                    <ul>👨‍💻 Software Development</ul>
-                    <ul>🤖 Machine Learning </ul>
-                    <ul>☁️ Cloud Computing</ul>  
-                </li>
-            </p>
+            I am a dedicated software development and cloud computing professional with expertise in Python, Java, C, Delphi,
+            JavaScript, and React library. Experienced with version control systems like Git and database management, 
+            and has a strong background in deploying and managing applications on Azure and AWS. 
+            Passionate about cloud technologies, I am is excited by their potential to optimize infrastructure and 
+            drive innovation.
+        </p>
+        </div>
+        <!--Interests Section-->
+        <div class="interests" id="interests">
+            <h1>Interests</h1>
+            <li id="interests-content">
+                <ul>Software Development</ul>
+                <ul>Machine Learning </ul>
+                <ul>Cloud Computing</ul>  
+            </li>
+        </div>
 
-        </subsection>
+        <h1>Skills</h1>
+        <div class="skills_container">
+    
+            <div class="skills_content" id="cloud_partforms">
+                <h3>Cloud Platforms</h3>
+                <li>
+                    <ul>Amazon Web Services (AWS)</ul>
+                    <ul>Azure</ul>
+                </li>
+            </div>
+
+            <div class="skills_content" id="programming_languages">
+                <h3>Programming languages and Frameworks</h3>
+                <li>
+                    <ul>Python</ul>
+                    <ul>Java</ul>
+                    <ul>C language</ul>
+                    <ul>Delphi</ul>
+                    
+                </li>
+            </div>
+
+            <div class="skills_content" id="databases">
+                <h3>Databases</h3>
+                <li>
+                    <ul>MySQL</ul>
+                    <ul>MongoDB</ul>
+                    <ul>Amazon Aurora.</ul>
+                    <ul>Amazon DynamoDB</ul>
+                    <ul>Amazon RDS.</ul>
+                </li>
+            </div>
+        </div>
     </section>
+
+    <section id="education">
+        <h1>Education</h1>
+        <div>
+            <h3>Software Engineering</h3>
+            <h3>Power Learn Project (Ongoing)</h3> <br>
+        </div>
+        <div>
+            <h3>Bachelors Degree, IT</h3>
+            <h3>GRADUATED, JUNE 2024</h3>
+            <h3>JOMO KENYATTA UNIVERSITY OF AGRICULTURE AND TECHNOLOGY</h3>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div id="elevatorSimulation">
+            <h3>Elevator Simulation</h3>
+
+        </div>
+
+        <div id="telemedicineApplication">
+            <h3>Telemedicine Application</h3>
+
+        </div>
+
+    </section>
+
+    <section id="contact" class="contact">
+        <h1>Please contact me through:</h1>
+        <form class="contact-form" action="#" method="post"></form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-button">Send Message</button>
+        </form>
+
+    </section>
+
 </body>
 </html>
