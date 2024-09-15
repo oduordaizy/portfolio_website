@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/projects.css">
     <link rel="stylesheet" href="css/education.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -37,8 +40,8 @@
 
     <section class="home" id="home">
         <div class="home-content">
-            <div>
-                <h3>Hey there </h3> <i class="em em-wave" aria-role="presentation" aria-label="WAVING HAND SIGN"></i><br>
+            <div class="intro-text">
+                <h3 class="greeting">Hey there </h3> <i class="em em-wave" aria-role="presentation" aria-label="WAVING HAND SIGN"></i><br>
                 <h3>I'm Daisy,</h3> <br>
                 <h3><span>A Front-end developer and a Cloud Architect</span>  </h3><br>
                 <a href="https://1drv.ms/b/c/53b86eacca7b268f/EdVLcMfuQEpJnou15tzWXccBv0EY5XEmx095Zp2s72o7QQ?e=qasJ1Y" class="cv_download" target="_blank">Download CV</a>
@@ -111,27 +114,31 @@
         </div>
     </section>
 
-    <section id="education">
+    <section class="education" id="education">
         <h1>Education</h1>
-        <div>
+        <div class="educationItem" >
             <h3>Software Engineering</h3>
             <h3>Power Learn Project (Ongoing)</h3> <br>
         </div>
-        <div>
+        <div class="educationItem">
             <h3>Bachelors Degree, IT</h3>
             <h3>GRADUATED, JUNE 2024</h3>
             <h3>JOMO KENYATTA UNIVERSITY OF AGRICULTURE AND TECHNOLOGY</h3>
         </div>
     </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div id="elevatorSimulation">
+    <h2>Projects</h2>
+    <section class="projects" id="projects">
+        <div class="projectItems" id="elevatorSimulation">
             <h3>Elevator Simulation</h3>
+            <img src="https://www.tkelevator.com/media/usa_canada/products_4/mid_rise/20211030_tke_chq_content_models_shoot_1259_l_image_w900_h550.webp" alt="Elevator Image" width="400px" height="250px"><br>
+            <p><b>Language used:</b> Python</p><br>
+            <p><b>Description:</b> The machine simulates the behavior<br> of an elevator with three doors (A, B, and C) that alight at different floors.</p>
 
+            <a href="https://github.com/oduordaizy/elevator_simulation_with_python.git" target="_blank">Link</a>
         </div>
 
-        <div id="telemedicineApplication">
+        <div class="projectItems" id="telemedicineApplication">
             <h3>Telemedicine Application</h3>
 
         </div>

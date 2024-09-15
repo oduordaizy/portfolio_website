@@ -1,0 +1,30 @@
+#education{
+    height: 80vh;
+}
+
+.education{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    /*background-color: #f8f0fc;*/
+    color: white;
+    width: 80%;
+    border: black;
+    margin-left: 60px;
+}
+
+.educationItem{
+    width: 100%;
+    /*max-width: 600px;*/
+    padding: 20px;
+    /*background-color: aqua;*/
+    line-height: 2.0;
+    border: solid #9c36b5;
+}
+
+.education h1{
+    color: white;
+    font-size: 3.2 rem;
+}

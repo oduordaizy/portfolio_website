@@ -1,0 +1,12 @@
+#projects{
+    height: 80vh;
+}
+.projects{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.projectItems{
+    line-height: 1.6;
+}

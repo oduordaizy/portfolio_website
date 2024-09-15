@@ -2,7 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    
+   
     text-decoration: none;
     border: none;
     scroll-behavior: smooth;
@@ -40,6 +40,7 @@ body{
 
 .logo{
     font-size: 2.5rem;
+    font-family: "Permanent Marker";
     color: var(--text-color);
     font-weight: 600;
     left: 10px;
@@ -105,17 +106,18 @@ body{
 }
 
 section{
-    min-height: 120vh;
-    padding: 2rem 9% 1rem;  /*change 2rem 9% 1rem*/
+    /*min-height: 120vh;*/
+    padding: 2rem 9% 3rem;  /*change 2rem 9% 1rem*/
     font-weight: 700px;
 }
 
 .home-content{
-    margin-top: 200px;
+    margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-left: 20px;
+    
     
 }
 
@@ -126,6 +128,15 @@ section{
     width: 35vw;
 }
 
+.intro-text{
+    max-width: 50%;;
+}
+
+.intro-text .greeting{
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
 .cv_download{
     margin-top: 30px;
     display: inline-block;
@@ -141,7 +152,7 @@ section{
 }
 
 .cv_download:hover{
-
+    background: #862e9c;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
