@@ -14,11 +14,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/footer.css">
 </head>
 <body>
     <header class="header">
         
-        <a href="" class="logo">DAISY</a>
+        <a href="" class="logo">DAISY ODUOR</a>
 
         <i class='bx bx-menu' id="menu-icon"></i>
 
@@ -115,8 +116,9 @@
     </section>
 
     <section class="education" id="education">
-        <h1>Education</h1>
+        <h1>EDUCATION</h1>
         <div class="educationItem" >
+            <!--<img src="https://www.africa-newsroom.com/files/large/83379a847dc9ee6" alt="PLP Logo" width="300px" height="150px"> -->
             <h3>Software Engineering</h3>
             <h3>Power Learn Project (Ongoing)</h3> <br>
         </div>
@@ -127,27 +129,35 @@
         </div>
     </section>
 
-    <h2>Projects</h2>
-    <section class="projects" id="projects">
-        <div class="projectItems" id="elevatorSimulation">
-            <h3>Elevator Simulation</h3>
-            <img src="https://www.tkelevator.com/media/usa_canada/products_4/mid_rise/20211030_tke_chq_content_models_shoot_1259_l_image_w900_h550.webp" alt="Elevator Image" width="400px" height="250px"><br>
-            <p><b>Language used:</b> Python</p><br>
-            <p><b>Description:</b> The machine simulates the behavior<br> of an elevator with three doors (A, B, and C) that alight at different floors.</p>
+   
+    
+    <section id="projects">
+        <h2>PROJECTS</h2>
+        <div class="projects">
+            <div class="projectItems" id="elevatorSimulation">
+                <h3>Elevator Simulation</h3>
+                <img src="https://www.tkelevator.com/media/usa_canada/products_4/mid_rise/20211030_tke_chq_content_models_shoot_1259_l_image_w900_h550.webp" alt="Elevator Image" width="400px" height="250px"><br>
+                <p><b>Language used:</b> Python</p><br>
+                <p><b>Description:</b> The machine simulates the behavior<br> of an elevator with three doors (A, B, and C) that alight at different floors.</p><br>
+    
+                <a href="https://github.com/oduordaizy/elevator_simulation_with_python.git" class="githubLinkButton" target="_blank">Github</a>
+    
+                
+            </div>
+    
+            <div class="projectItems" id="telemedicineApplication">
+                <h3>Telemedicine Application</h3>
+    
+            </div>
+    
 
-            <a href="https://github.com/oduordaizy/elevator_simulation_with_python.git" target="_blank">Link</a>
         </div>
-
-        <div class="projectItems" id="telemedicineApplication">
-            <h3>Telemedicine Application</h3>
-
-        </div>
-
+        
     </section>
 
     <section id="contact" class="contact">
-        <h1>Please contact me through:</h1>
-        <form class="contact-form" action="#" method="post"></form>
+        <h1>Contact me!!</h1>
+        <form class="contact-form" action="action.php" method="post"></form>
             <div class="form-group">
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" required>
@@ -168,19 +178,34 @@
         </form>
 
         <div id="findMe">
-            <p>You can also find me through:</p>
-            <div class="social-media">
-                <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
-                <a href="#"><i class='bx bxl-twitter' ></i></a>
-                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
-                <a href="#"><i class='bx bxl-tiktok' ></i></a>
-                <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
-            </div>
+            
         </div>
         
 
 
     </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footerItem">
+                &copy; 2024 | Daisy Oduor.
+            </div>
+            <div class="footerItem">
+                Front end Developer
+            </div>
+            <div class="footerItem">
+                AWS Cloud Practioner
+            </div>
+                 
+        </div>
+        <div class="social-media">
+            <a href="#"><i class='bx bxl-facebook-circle' class="socialMediaIcons"></i></a>
+            <a href="https://github.com/oduordaizy" class="socialMediaIcons"><i class='bx bxl-github'></i></a>
+            <a href="https://www.tiktok.com/@_d..aisyyy?_t=8plTtPXan94&_r=1" class="socialMediaIcons"><i class='bx bxl-tiktok' ></i></a>
+            <a href="https://www.linkedin.com/in/daisyoduor7177" class="socialMediaIcons"><i class='bx bxl-linkedin-square' ></i></a>
+        </div>
+       
+    </footer>
 
 </body>
 </html>

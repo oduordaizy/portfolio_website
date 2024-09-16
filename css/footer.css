@@ -1,0 +1,19 @@
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
+
+}
+
+.social-media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.socialMediaIcons{
+    font-size: 4 rem;
+}

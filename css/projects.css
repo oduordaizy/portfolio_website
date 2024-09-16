@@ -1,5 +1,6 @@
 #projects{
     height: 80vh;
+    line-height: normal;
 }
 .projects{
     display: flex;
@@ -7,6 +8,17 @@
     flex: 1;
 }
 
+#projects h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
 .projectItems{
     line-height: 1.6;
+}
+
+.githubLinkButton{
+    background-color: blue;
+    padding: 5px;
+    color: white;
 }
