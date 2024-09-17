@@ -179,3 +179,26 @@ section{
 
 }
 
+/*Media queries for responsiveness*/
+
+/*larger screens > 768 px*/
+@media (min-width: 768px){
+    .box{
+        flex: 1 1 30%;
+    }
+    
+}
+
+/*screens smaller than 768px*/
+@media (max-width: 768px) {
+    .box{
+        flex: 1 1 45%;
+    }
+}
+
+/*screens smaller than 480px*/
+@media (max-width: 480px){
+    .box{
+        flex: 1 1 100%;
+    }
+}
