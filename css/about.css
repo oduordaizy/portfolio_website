@@ -9,11 +9,24 @@
      
 }
 
+#skills h1{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
 .skills_content{
-    background-color: #f3d9fa;
-    color: black;
+    /*background-color: #f3d9fa;*/
+    color: white;
     flex: 1;
     padding: 20px;
     /*text-align: center;*/
+    line-height: 1.6;
     margin-left: 30px;
+    
 }
+
+.skills_content h3{
+    text-align: center;
+}
+
