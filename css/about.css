@@ -4,7 +4,7 @@
 .skills_container{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /*align-items: center;*/
     
      
 }
@@ -30,3 +30,8 @@
     text-align: center;
 }
 
+.projectItems a{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
