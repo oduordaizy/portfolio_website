@@ -18,7 +18,17 @@
 }
 
 .githubLinkButton{
-    background-color: blue;
-    padding: 5px;
+    background-color: #9c36b5;
+    padding: 20px;
     color: white;
+    border-radius: 50%;
+    transition: all 200ms ease;
+    
+}
+
+.githubLinkButton:hover {
+    background-color: white;
+    color: #9c36b5;
+    border: 1px solid #9c36b5;
+
 }
